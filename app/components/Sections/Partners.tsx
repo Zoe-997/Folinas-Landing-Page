@@ -78,11 +78,11 @@ const Partners = () => {
     ]    
 
     return (
-        <div id="partner" className="my-20">
+        <div id="partner" className="my-10 md:my-20">
             <Container>
                 <Slider {...settings}>
                     {sliderData.map((item, index) => (
-                        <div key={index} className="">
+                        <div key={index}>
                             <Image 
                                 src={item.image}
                                 alt={item.title}

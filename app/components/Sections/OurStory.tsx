@@ -34,7 +34,7 @@ const OurStory = () => {
         <div id="our-store" className="py-12">
             <Container>
                 <Heading headingTag="h2" heading="Our Story" />
-                <Slider {...settings} className='w-full'>
+                <Slider {...settings}>
                     {sliderData.map((item, index) => (
                         <div key={index}>
                             <div className="flex flex-wrap items-center -mx-[15px]">

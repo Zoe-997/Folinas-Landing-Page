@@ -19,7 +19,7 @@ const FooterLogo = () => {
             />
             <div className="mt-5">
               <p className="mb-5">If you have any question, please contact us at:</p>
-              <Link title="Hotline" href={`tel: 096 446 3304`} className="text-[35px] font-semibold text-[rgba(var(--second-rgb))]">(+84) 096 446 3304</Link>
+              <Link title="Hotline" href={`tel: 096 446 3304`} className="text-[30px] sm:text-[35px] font-semibold text-[rgba(var(--second-rgb))]">(+84) 096 446 3304</Link>
             </div>
             <Social/>
         </div>
