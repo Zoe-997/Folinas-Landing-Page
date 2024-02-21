@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import LogoImage from "../../../public/images/logo.png";
+import LogoImage from "@/public/images/logo.png";
 
 const Logo = () => {
     const pathname = usePathname()
